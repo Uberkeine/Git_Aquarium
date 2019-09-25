@@ -8,6 +8,17 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{BEE9F865-6631-4B2A-8775-CFE1208686BA}" WorkUnitID="{F3C729D3-AEDE-4BA0-9E2A-7B7AF06F4D1C}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Peak Limiter (Custom)" ID="{8B2068AA-A9DE-437B-BF9E-A93C4883D791}" ShortID="906415689" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<PropertyList>
+										<Property Name="OutputGain" Type="Real32" Value="14"/>
+										<Property Name="Ratio" Type="Real32" Value="11.3"/>
+										<Property Name="Threshold" Type="Real32" Value="-19.3"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Bus_Cube" ID="{1A598CF5-7047-46D8-A14C-DC0A657D4A0B}">

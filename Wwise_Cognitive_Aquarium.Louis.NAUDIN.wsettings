@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\louis.naudin\Desktop\Sons_Meca_Aquarium"/>
 				<Property Name="Event Action List\{35D4E1DD-65A8-4D08-B0F7-727EE575E7C3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5BF7CF67-8487-4444-A772-D5513743F35D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9F567B03-A170-4EFB-97C5-5EBB5D409C7F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E5283F8E-3AA2-4E6B-84EB-F19457B23E79}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
