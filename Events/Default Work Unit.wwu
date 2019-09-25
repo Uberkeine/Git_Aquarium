@@ -45,6 +45,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Random_Hit" ID="{5BF7CF67-8487-4444-A772-D5513743F35D}">
+					<ChildrenList>
+						<Action Name="" ID="{B758208A-DB7E-4714-93D2-3E56C1140909}" ShortID="440435729">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random_Hit" ID="{E86DF118-A1D9-4EBF-AA7B-A911155C632C}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

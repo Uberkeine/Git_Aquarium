@@ -1,6 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{86BD531D-84B8-418A-84ED-D4F5933CEE56}" SchemaVersion="89">
 	<Presets>
-		<WorkUnit Name="Default Work Unit" ID="{86BD531D-84B8-418A-84ED-D4F5933CEE56}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{86BD531D-84B8-418A-84ED-D4F5933CEE56}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Plouf" ID="{75656F47-395E-402D-AE60-041089C34643}">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BypassEffect1" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9A3B2374-ED60-488F-8380-D1ACF40AAC30}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3A8550C1-2278-4A2B-9EC0-A825FA2C8639}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-20"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{58F31C6C-9C0C-4CEF-86FC-52E563AE8016}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+											<Property Name="Min" Type="Real64" Value="-30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ED5627E9-1B4A-4BFA-97DC-F9AA776A9452}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{FE90C1F7-4AF6-41FC-A2FD-927327027745}" ShortID="951157317" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="275"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="93"/>
+										<Property Name="GainBand2" Type="Real32" Value="-24"/>
+										<Property Name="GainBand3" Type="Real32" Value="-8.5"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="4"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Guitar Distortion (Custom)" ID="{66CC12B8-690E-47D4-91CD-3F380FE635FD}" ShortID="615509819" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<PropertyList>
+										<Property Name="DistortionDrive" Type="Real32" Value="10"/>
+										<Property Name="DistortionType" Type="int32" Value="2"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Bus_Plouf" ID="{1A9FAF5E-D079-48DE-A96E-16ECE5DFAC81}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
+						</Reference>
+					</ReferenceList>
+					<PositioningInfo>
+						<Panner Name="" ID="{4537E459-A31E-4374-A4B7-19489A39262D}"/>
+					</PositioningInfo>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</Presets>
 </WwiseDocument>

@@ -17,10 +17,19 @@
 			<Path>Soundbank_Aquarium.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3108096936" Name="Play_Plouf" ObjectPath="\Events\Default Work Unit\Play_Plouf"/>
+				<Event Id="1976822121" Name="Play_Random_Hit" ObjectPath="\Events\Default Work Unit\Play_Random_Hit"/>
 				<Event Id="399603567" Name="Play_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Play_Random_Move_Cube"/>
 				<Event Id="4053660289" Name="Stop_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Stop_Random_Move_Cube"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="168253220" Language="SFX">
+					<ShortName>Cogne_1.wav</ShortName>
+					<Path>SFX\Cogne_1_D3E4364C.wem</Path>
+				</File>
+				<File Id="380282622" Language="SFX">
+					<ShortName>Cogne_2.wav</ShortName>
+					<Path>SFX\Cogne_2_21E9AF35.wem</Path>
+				</File>
 				<File Id="575108740" Language="SFX">
 					<ShortName>Plouf.wav</ShortName>
 					<Path>SFX\Plouf_B8293AFA.wem</Path>
