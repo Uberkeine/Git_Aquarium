@@ -6,11 +6,16 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2132119316	Cube_Gyro			\Default Work Unit\Cube_Gyro	
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	1018361191	Modulator LFO (Custom)				
+
 Effect plug-ins	ID	Name	Type				Notes
+	314588329	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	404450217	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
 	703953782	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	1046002055	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	575108740	Plouf	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Plouf_5D0F66C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plouf		220556
+	575108740	Plouf	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Plouf_B8293AFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Plouf		61388
 	598823458	Cube_Move	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cube_Move_4D3F816F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Move_Cube\Cube_Move		1519140
 

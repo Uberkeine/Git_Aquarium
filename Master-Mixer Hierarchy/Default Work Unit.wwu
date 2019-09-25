@@ -23,7 +23,7 @@
 									<Custom>
 										<Effect Name="Wwise Compressor (Custom)" ID="{F588CD59-6F3F-4799-AB1F-660CFF3E9607}" ShortID="208553120" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 											<PropertyList>
-												<Property Name="OutputGain" Type="Real32" Value="16"/>
+												<Property Name="OutputGain" Type="Real32" Value="10"/>
 												<Property Name="Ratio" Type="Real32" Value="3"/>
 												<Property Name="Threshold" Type="Real32" Value="-30"/>
 											</PropertyList>
@@ -43,11 +43,38 @@
 							</ReferenceList>
 						</AuxBus>
 						<Bus Name="Bus_Plouf" ID="{1A9FAF5E-D079-48DE-A96E-16ECE5DFAC81}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
 									<Custom>
-										<Effect Name="Wwise Compressor (Custom)" ID="{7E6A6499-89C2-491C-97C3-3C9568704122}" ShortID="1050848424" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
+										<Effect Name="Wwise Compressor (Custom)" ID="{7E6A6499-89C2-491C-97C3-3C9568704122}" ShortID="1050848424" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="OutputGain" Type="Real32" Value="15"/>
+												<Property Name="Ratio" Type="Real32" Value="3"/>
+												<Property Name="Threshold" Type="Real32" Value="-30"/>
+											</PropertyList>
+										</Effect>
 									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Delay (Custom)" ID="{354FC8D5-BDC4-4E08-8213-913B59793FB2}" ShortID="69469518" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<PropertyList>
+												<Property Name="DelayTime" Type="Real32" Value="0.1"/>
+												<Property Name="Feedback" Type="Real32" Value="35"/>
+												<Property Name="WetDryMix" Type="Real32" Value="10"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverbe" ID="{8613BC46-23CD-47B2-8739-160D62B2CA14}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
 								</Reference>
 							</ReferenceList>
 						</Bus>

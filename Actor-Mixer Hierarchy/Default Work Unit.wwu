@@ -60,6 +60,63 @@
 						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
+								<RTPC Name="" ID="{A7ACFF5C-33A1-4240-A8D2-21E9D8E520B7}" ShortID="680383190">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<Custom>
+												<ModulatorLfo Name="Modulator LFO (Custom)" ID="{1E38D26D-6ED5-4419-97FC-DDAACB8B8F5D}" ShortID="1018361191">
+													<PropertyList>
+														<Property Name="LfoFrequency" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{14AC6304-6762-4E40-94F5-1861621E748D}" ShortID="23858603">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Cube_Gyro" ID="{C8C6BDD7-42A0-47F6-9385-A23B7F519ED3}" WorkUnitID="{54315476-FDDC-4210-B478-ACA95B9D6078}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{F304FAE9-55FF-4079-B0B6-B7756328E617}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="5"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>1</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>5</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</ModulatorLfo>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1FB9E2D1-418A-46B0-B50A-D064CAE309EF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
 								<RTPC Name="" ID="{77F31466-1510-4462-A100-563C64A527A6}" ShortID="437751787">
 									<ReferenceList>
 										<Reference Name="ControlInput">
@@ -111,12 +168,13 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>-0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>8</YPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -124,6 +182,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="DistortionTone" Type="Real32" Value="8"/>
 										<Property Name="DistortionType" Type="int32" Value="2"/>
 										<Property Name="PostEQBand1Enable" Type="bool" Value="True"/>
 										<Property Name="PostEQBand1FilterType" Type="int32" Value="4"/>
@@ -207,26 +266,105 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<Sound Name="Plouf" ID="{5725A9BC-F663-495E-9325-E3DC68636C2E}" ShortID="741744288">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BypassEffect1" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DE8F6619-284B-49F3-A120-0A1D01B95564}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3E4A9216-DBC5-4AC6-9DEC-F7EDF562CDDA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-20"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{83B50FEE-91F8-4C16-85A9-848E90306C11}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+											<Property Name="Min" Type="Real64" Value="-30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ED5627E9-1B4A-4BFA-97DC-F9AA776A9452}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{2B6275BB-B631-4A68-90A3-F380C44FF6A5}" ShortID="314588329" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="275"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="93"/>
+										<Property Name="GainBand2" Type="Real32" Value="-24"/>
+										<Property Name="GainBand3" Type="Real32" Value="-8.5"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="4"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Guitar Distortion (Custom)" ID="{3D4E8CD3-BC7A-45F3-9E3A-8A6C633A854E}" ShortID="404450217" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+									<PropertyList>
+										<Property Name="DistortionDrive" Type="Real32" Value="10"/>
+										<Property Name="DistortionType" Type="int32" Value="2"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
+							<ObjectRef Name="Bus_Plouf" ID="{1A9FAF5E-D079-48DE-A96E-16ECE5DFAC81}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Plouf" ID="{EA03C53A-213B-4AE1-B803-58E45221B8C3}" ShortID="575108740">
 							<PropertyList>
 								<Property Name="FadeInDuration" Type="Real64" Value="1.46293821209466E-02"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.348666940549226"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.214564271107216"/>
 								<Property Name="TrimBegin" Type="Real64" Value="1.08501250730354"/>
-								<Property Name="TrimEnd" Type="Real64" Value="2.23341900379784"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.40442068361087"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Plouf.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{CA818AE0-8532-44F2-A203-25F4175A23C2}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Plouf" ID="{EA03C53A-213B-4AE1-B803-58E45221B8C3}" Platform="Linked"/>
 					</ActiveSourceList>
