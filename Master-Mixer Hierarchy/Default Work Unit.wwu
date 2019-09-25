@@ -19,6 +19,17 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{F588CD59-6F3F-4799-AB1F-660CFF3E9607}" ShortID="208553120" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="OutputGain" Type="Real32" Value="16"/>
+												<Property Name="Ratio" Type="Real32" Value="3"/>
+												<Property Name="Threshold" Type="Real32" Value="-30"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
 								<Reference Name="UserAuxSend0">
 									<ObjectRef Name="Reverbe" ID="{8613BC46-23CD-47B2-8739-160D62B2CA14}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
 								</Reference>

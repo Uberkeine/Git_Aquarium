@@ -23,6 +23,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3545700970	Reverbe			\Default Work Unit\Master Audio Bus\Reverbe	
 
 Effect plug-ins	ID	Name	Type				Notes
+	208553120	Wwise Compressor (Custom)	Wwise Compressor			
 	1050848424	Wwise Compressor (Custom)	Wwise Compressor			
 	3164629247	Holy	Wwise RoomVerb			
 

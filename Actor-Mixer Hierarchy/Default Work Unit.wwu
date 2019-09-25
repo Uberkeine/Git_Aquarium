@@ -57,6 +57,7 @@
 						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{77F31466-1510-4462-A100-563C64A527A6}" ShortID="437751787">
@@ -93,29 +94,29 @@
 						</Reference>
 						<Reference Name="Effect0">
 							<Custom>
-								<Effect Name="Wwise Time Stretch (Custom)" ID="{897489B7-F5FE-4181-A3D3-395D55A14023}" ShortID="308296252" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+								<Effect Name="Wwise Guitar Distortion (Custom)" ID="{F5AEBE1D-0B1B-40D6-A6DB-061FDD483C33}" ShortID="1046002055" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
 									<PropertyList>
-										<Property Name="TimeStretch" Type="Real32">
+										<Property Name="DistortionDrive" Type="Real32" Value="0">
 											<RTPCList>
-												<RTPC Name="" ID="{A111AC9D-47F5-445C-B524-84DF06A9F157}" ShortID="611811402">
+												<RTPC Name="" ID="{A8CA515C-0240-4621-BC02-CA1750339A2A}" ShortID="697936666">
 													<ReferenceList>
 														<Reference Name="ControlInput">
 															<ObjectRef Name="Cube_Gyro" ID="{C8C6BDD7-42A0-47F6-9385-A23B7F519ED3}" WorkUnitID="{54315476-FDDC-4210-B478-ACA95B9D6078}"/>
 														</Reference>
 													</ReferenceList>
-													<Curve Name="" ID="{EE83A3BA-C5E0-480B-9825-8C09089DFDE6}">
+													<Curve Name="" ID="{0E804358-4AD5-4732-B745-DC1036CB22D6}">
 														<PropertyList>
 															<Property Name="Flags" Type="int32" Value="1"/>
 														</PropertyList>
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>100</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>50</YPos>
+																<YPos>8</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -123,6 +124,53 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="DistortionType" Type="int32" Value="2"/>
+										<Property Name="PostEQBand1Enable" Type="bool" Value="True"/>
+										<Property Name="PostEQBand1FilterType" Type="int32" Value="4"/>
+										<Property Name="PostEQBand1Frequency" Type="Real32" Value="978">
+											<RTPCList>
+												<RTPC Name="" ID="{EF050A2E-7102-4514-BDFD-87518F733A7F}" ShortID="955412107">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Cube_Gyro" ID="{C8C6BDD7-42A0-47F6-9385-A23B7F519ED3}" WorkUnitID="{54315476-FDDC-4210-B478-ACA95B9D6078}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{81C0C75C-4F98-4463-A049-9B4E4DD4649B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="5"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>20</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>SCurve</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>600</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{DB76CAB2-6FA8-4E26-92A6-72A18FCCF0C7}" ShortID="703953782" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="80"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="2938"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="19950"/>
+										<Property Name="GainBand2" Type="Real32" Value="-12.5"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="12"/>
 									</PropertyList>
 								</Effect>
 							</Custom>
@@ -146,6 +194,7 @@
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="3.13012525182037E-03"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="1.56506262590028E-03"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.91186384385043"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Cube_Move.wav</AudioFile>
