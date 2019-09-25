@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="289310262" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank_Aquarium</ObjectPath>
+			<ShortName>Soundbank_Aquarium</ShortName>
+			<Path>Soundbank_Aquarium.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3108096936" Name="Play_Plouf" ObjectPath="\Events\Default Work Unit\Play_Plouf"/>
+				<Event Id="399603567" Name="Play_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Play_Random_Move_Cube"/>
+				<Event Id="4053660289" Name="Stop_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Stop_Random_Move_Cube"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="575108740" Language="SFX">
+					<ShortName>Plouf.wav</ShortName>
+					<Path>SFX\Plouf_5D0F66C1.wem</Path>
+				</File>
+				<File Id="598823458" Language="SFX">
+					<ShortName>Cube_Move.wav</ShortName>
+					<Path>SFX\Cube_Move_0221E62F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

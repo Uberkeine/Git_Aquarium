@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Random_Move_Cube" ID="{E5283F8E-3AA2-4E6B-84EB-F19457B23E79}">
+					<ChildrenList>
+						<Action Name="" ID="{61FC2CDE-4534-461E-B92B-6DF5279C61F8}" ShortID="321529176">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random_Move_Cube" ID="{6D02E024-AC33-46CD-BF32-0FB6066F30E8}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Random_Move_Cube" ID="{9F567B03-A170-4EFB-97C5-5EBB5D409C7F}">
+					<ChildrenList>
+						<Action Name="" ID="{FF4D16C5-2749-4D0D-91E1-FE4214DA6D96}" ShortID="109495384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Random_Move_Cube" ID="{6D02E024-AC33-46CD-BF32-0FB6066F30E8}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Plouf" ID="{35D4E1DD-65A8-4D08-B0F7-727EE575E7C3}">
+					<ChildrenList>
+						<Action Name="" ID="{E3966AF4-5C7C-4A6A-83B6-8D6CC80F42DC}" ShortID="626728997">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plouf" ID="{5725A9BC-F663-495E-9325-E3DC68636C2E}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

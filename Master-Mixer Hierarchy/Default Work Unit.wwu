@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A632CC12-CA2E-4A0A-8389-416709686E9D}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{A632CC12-CA2E-4A0A-8389-416709686E9D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{BEE9F865-6631-4B2A-8775-CFE1208686BA}" WorkUnitID="{F3C729D3-AEDE-4BA0-9E2A-7B7AF06F4D1C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Bus_Cube" ID="{1A598CF5-7047-46D8-A14C-DC0A657D4A0B}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverbe" ID="{8613BC46-23CD-47B2-8739-160D62B2CA14}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="Reverbe" ID="{8613BC46-23CD-47B2-8739-160D62B2CA14}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<Bus Name="Bus_Plouf" ID="{1A9FAF5E-D079-48DE-A96E-16ECE5DFAC81}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{7E6A6499-89C2-491C-97C3-3C9568704122}" ShortID="1050848424" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

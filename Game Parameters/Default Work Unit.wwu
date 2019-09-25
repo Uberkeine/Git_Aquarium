@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54315476-FDDC-4210-B478-ACA95B9D6078}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{54315476-FDDC-4210-B478-ACA95B9D6078}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Cube_Gyro" ID="{C8C6BDD7-42A0-47F6-9385-A23B7F519ED3}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
