@@ -2,7 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	399603567	Play_Random_Move_Cube			\Default Work Unit\Play_Random_Move_Cube	
 	1976822121	Play_Random_Hit			\Default Work Unit\Play_Random_Hit	
 	3065965954	Play_Color_Change			\Default Work Unit\Play_Color_Change	
-	3108096936	Play_Plouf			\Default Work Unit\Play_Plouf	
 	4053660289	Stop_Random_Move_Cube			\Default Work Unit\Stop_Random_Move_Cube	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

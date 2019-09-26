@@ -17,7 +17,6 @@
 			<Path>Soundbank_Aquarium.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3065965954" Name="Play_Color_Change" ObjectPath="\Events\Default Work Unit\Play_Color_Change"/>
-				<Event Id="3108096936" Name="Play_Plouf" ObjectPath="\Events\Default Work Unit\Play_Plouf"/>
 				<Event Id="1976822121" Name="Play_Random_Hit" ObjectPath="\Events\Default Work Unit\Play_Random_Hit"/>
 				<Event Id="399603567" Name="Play_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Play_Random_Move_Cube"/>
 				<Event Id="4053660289" Name="Stop_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Stop_Random_Move_Cube"/>
