@@ -171,7 +171,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>SCurve</SegmentShape>
 															</Point>
@@ -273,14 +273,14 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>30</Value>
+								<Value>20</Value>
 							</ValueList>
 						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>7</Value>
+								<Value>8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -303,6 +303,18 @@
 								</Effect>
 							</Custom>
 						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Harmonizer (Custom)" ID="{AA9F802E-7E7C-49E2-96D1-E9C65A7216D7}" ShortID="448994672" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<PropertyList>
+										<Property Name="DryLevel" Type="Real32" Value="-96"/>
+										<Property Name="Voice1FilterFrequency" Type="Real32" Value="648"/>
+										<Property Name="Voice1FilterType" Type="int32" Value="7"/>
+										<Property Name="WindowSize" Type="int32" Value="2048"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Bus_Plouf" ID="{1A9FAF5E-D079-48DE-A96E-16ECE5DFAC81}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
 						</Reference>
@@ -313,13 +325,12 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>16</Value>
+										<Value>46</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{DE8F6619-284B-49F3-A120-0A1D01B95564}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="30"/>
 												</PropertyList>
 											</Modifier>
@@ -404,13 +415,12 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>16</Value>
+										<Value>46</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{9EC960F5-9A28-4D2E-A5B8-00DC34EC2002}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="30"/>
 												</PropertyList>
 											</Modifier>
@@ -444,7 +454,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -476,13 +486,12 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>46</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{78171947-38F3-4C8D-96F9-D7BF60E9667F}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="30"/>
 												</PropertyList>
 											</Modifier>
@@ -552,6 +561,135 @@
 						<Panner Name="" ID="{9BB1698B-A521-42F9-92D2-4A1C50452901}"/>
 					</PositioningInfo>
 				</RandomSequenceContainer>
+				<Sound Name="Color_Change" ID="{AC2E49D7-39CC-48C2-B50E-90407993EF8F}" ShortID="889748063">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>45</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2F142527-8B9D-433A-89CD-83872CF6F617}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="5"/>
+											<Property Name="Min" Type="Real64" Value="-5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>17</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-630</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1A968019-F77A-4DA5-BCCE-3160721B5F76}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{93DF354D-98B5-4DA0-B00D-FED70C3D4E42}" ShortID="477577119">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<Custom>
+												<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{5BC63334-3BBC-4DBA-8E25-FB69C1C3E88E}" ShortID="545309498">
+													<PropertyList>
+														<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.3"/>
+														<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+														<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+														<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.2"/>
+														<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+													</PropertyList>
+												</ModulatorEnvelope>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{3E2A7381-0A7F-4BBA-8E7D-2C97C94FDB76}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ED5627E9-1B4A-4BFA-97DC-F9AA776A9452}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Parametric EQ (Custom)" ID="{4D2AAD87-68D0-4ABF-BCE7-B9BB2E3ED720}" ShortID="419707546" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<PropertyList>
+										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+										<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="132"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="3512"/>
+										<Property Name="GainBand2" Type="Real32" Value="-24"/>
+										<Property Name="GainBand3" Type="Real32" Value="-8.5"/>
+										<Property Name="QFactorBand2" Type="Real32" Value="4"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1">
+							<Custom>
+								<Effect Name="Wwise Harmonizer (Custom)" ID="{E9714CA6-BF29-4064-9D38-9D1030042D7E}" ShortID="555187208" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<PropertyList>
+										<Property Name="DryLevel" Type="Real32" Value="-96"/>
+										<Property Name="Voice1FilterFrequency" Type="Real32" Value="648"/>
+										<Property Name="Voice1FilterType" Type="int32" Value="7"/>
+										<Property Name="WindowSize" Type="int32" Value="2048"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Bus_Color" ID="{66453765-A6E7-486D-9028-E3D28C96F6C0}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="OIGNON_C" ID="{BEE2EA4B-0565-4A95-8FF2-B2810C4CA228}" ShortID="636866988">
+							<Language>SFX</Language>
+							<AudioFile>OIGNON_C.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{9680B4C9-4845-49CB-BD00-BB719B2FEB87}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="OIGNON_C" ID="{BEE2EA4B-0565-4A95-8FF2-B2810C4CA228}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

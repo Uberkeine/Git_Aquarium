@@ -59,6 +59,55 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Color_Change" ID="{461AF50E-5C9B-412A-AAEB-72B598C9C000}">
+					<ChildrenList>
+						<Action Name="" ID="{AB4E4A25-0E37-4EFD-A8AA-4552B423972A}" ShortID="770704437">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Color_Change" ID="{AC2E49D7-39CC-48C2-B50E-90407993EF8F}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FFB0B059-3153-42C4-9A09-CE06C608BF75}" ShortID="491249984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64" Value="50">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B595BD02-CBE5-491E-B016-FE32B77E02A6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="SeekTime" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{79EC6352-194B-4EDD-99D1-1B743761679F}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="45"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Color_Change" ID="{AC2E49D7-39CC-48C2-B50E-90407993EF8F}" WorkUnitID="{425DA8E5-D62A-4E86-BBC7-DC93176F1304}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -16,6 +16,7 @@
 			<ShortName>Soundbank_Aquarium</ShortName>
 			<Path>Soundbank_Aquarium.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3065965954" Name="Play_Color_Change" ObjectPath="\Events\Default Work Unit\Play_Color_Change"/>
 				<Event Id="3108096936" Name="Play_Plouf" ObjectPath="\Events\Default Work Unit\Play_Plouf"/>
 				<Event Id="1976822121" Name="Play_Random_Hit" ObjectPath="\Events\Default Work Unit\Play_Random_Hit"/>
 				<Event Id="399603567" Name="Play_Random_Move_Cube" ObjectPath="\Events\Default Work Unit\Play_Random_Move_Cube"/>
@@ -37,6 +38,10 @@
 				<File Id="598823458" Language="SFX">
 					<ShortName>Cube_Move.wav</ShortName>
 					<Path>SFX\Cube_Move_2344B308.wem</Path>
+				</File>
+				<File Id="636866988" Language="SFX">
+					<ShortName>OIGNON_C.wav</ShortName>
+					<Path>SFX\OIGNON_C_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

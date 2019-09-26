@@ -89,6 +89,20 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
+						<Bus Name="Bus_Color" ID="{66453765-A6E7-486D-9028-E3D28C96F6C0}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverbe" ID="{8613BC46-23CD-47B2-8739-160D62B2CA14}" WorkUnitID="{A632CC12-CA2E-4A0A-8389-416709686E9D}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

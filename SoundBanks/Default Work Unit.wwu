@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank_Aquarium" ID="{F821C45A-E9B9-43CC-B23D-009C8A9A4997}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Color_Change" ID="{461AF50E-5C9B-412A-AAEB-72B598C9C000}" WorkUnitID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Random_Hit" ID="{5BF7CF67-8487-4444-A772-D5513743F35D}" WorkUnitID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Plouf" ID="{35D4E1DD-65A8-4D08-B0F7-727EE575E7C3}" WorkUnitID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Random_Move_Cube" ID="{E5283F8E-3AA2-4E6B-84EB-F19457B23E79}" WorkUnitID="{2EFCB19E-A2A4-45BA-BD88-1659009BC0B4}" Filter="7" Origin="Manual"/>

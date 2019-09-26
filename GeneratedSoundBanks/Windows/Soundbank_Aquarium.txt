@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	399603567	Play_Random_Move_Cube			\Default Work Unit\Play_Random_Move_Cube	
 	1976822121	Play_Random_Hit			\Default Work Unit\Play_Random_Hit	
+	3065965954	Play_Color_Change			\Default Work Unit\Play_Color_Change	
 	3108096936	Play_Plouf			\Default Work Unit\Play_Plouf	
 	4053660289	Stop_Random_Move_Cube			\Default Work Unit\Stop_Random_Move_Cube	
 
@@ -10,8 +11,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Modulator LFO	ID	Name			Wwise Object Path	Notes
 	1018361191	Modulator LFO (Custom)				
 
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	545309498	Modulator Envelope (Custom)				
+
 Effect plug-ins	ID	Name	Type				Notes
 	120282651	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	419707546	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	448994672	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+	555187208	Wwise Harmonizer (Custom)	Wwise Harmonizer			
 	703953782	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	1046002055	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
@@ -20,4 +27,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	380282622	Cogne_2	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cogne_2_59CFAAD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Cogne_2		66428
 	575108740	Plouf	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Plouf_6404AAB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Plouf		61388
 	598823458	Cube_Move	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cube_Move_2344B308.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Move_Cube\Cube_Move		1519140
+	636866988	Color_Change	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\OIGNON_C_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Color_Change		1706564
 
