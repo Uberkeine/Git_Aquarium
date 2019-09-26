@@ -61,7 +61,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Cube_Gyro" ID="{C8C6BDD7-42A0-47F6-9385-A23B7F519ED3}"/>
-							<Value>0</Value>
+							<Value>10.5613701236917</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Density_FA_SSGrain" ID="{63B3F29E-04F3-4887-BA1A-4D7694644B24}"/>

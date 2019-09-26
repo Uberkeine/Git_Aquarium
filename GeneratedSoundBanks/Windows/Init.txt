@@ -25,6 +25,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	69469518	Wwise Delay (Custom)	Wwise Delay			
 	208553120	Wwise Compressor (Custom)	Wwise Compressor			
+	906415689	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	1050848424	Wwise Compressor (Custom)	Wwise Compressor			
 	3164629247	Holy	Wwise RoomVerb			
 

@@ -16,8 +16,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	1046002055	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	168253220	Cogne_1	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cogne_1_D3E4364C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Cogne_1		41972
-	380282622	Cogne_2	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cogne_2_21E9AF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Cogne_2		66428
-	575108740	Plouf	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Plouf_B8293AFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Plouf		61388
-	598823458	Cube_Move	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cube_Move_4D3F816F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Move_Cube\Cube_Move		1519140
+	168253220	Cogne_1	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cogne_1_59E249C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Cogne_1		41972
+	380282622	Cogne_2	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cogne_2_59CFAAD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Cogne_2		66428
+	575108740	Plouf	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Plouf_6404AAB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Hit\Plouf		61388
+	598823458	Cube_Move	C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\.cache\Windows\SFX\Cube_Move_2344B308.wem		\Actor-Mixer Hierarchy\Default Work Unit\Random_Move_Cube\Cube_Move		1519140
 

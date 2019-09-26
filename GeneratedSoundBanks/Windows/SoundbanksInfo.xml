@@ -24,19 +24,19 @@
 			<IncludedMemoryFiles>
 				<File Id="168253220" Language="SFX">
 					<ShortName>Cogne_1.wav</ShortName>
-					<Path>SFX\Cogne_1_D3E4364C.wem</Path>
+					<Path>SFX\Cogne_1_59E249C3.wem</Path>
 				</File>
 				<File Id="380282622" Language="SFX">
 					<ShortName>Cogne_2.wav</ShortName>
-					<Path>SFX\Cogne_2_21E9AF35.wem</Path>
+					<Path>SFX\Cogne_2_59CFAAD0.wem</Path>
 				</File>
 				<File Id="575108740" Language="SFX">
 					<ShortName>Plouf.wav</ShortName>
-					<Path>SFX\Plouf_B8293AFA.wem</Path>
+					<Path>SFX\Plouf_6404AAB6.wem</Path>
 				</File>
 				<File Id="598823458" Language="SFX">
 					<ShortName>Cube_Move.wav</ShortName>
-					<Path>SFX\Cube_Move_4D3F816F.wem</Path>
+					<Path>SFX\Cube_Move_2344B308.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

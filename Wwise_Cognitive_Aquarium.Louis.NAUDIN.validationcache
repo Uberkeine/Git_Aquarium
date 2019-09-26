@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1569419772" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1553506316" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Actor-Mixer Hierarchy\Factory SoundSeed Grain.wwu" DateLow="1553506366" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1553506300" DateHigh="0"/>
@@ -13,7 +13,7 @@
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="1553506343" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1553506492" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory Effects.wwu" DateLow="1553506300" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory Effects.wwu" DateLow="1569401657" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Box Modeler.wwu" DateLow="1553506319" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Delay.wwu" DateLow="1553506319" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Dynamics.wwu" DateLow="1553506319" DateHigh="0"/>
@@ -21,23 +21,24 @@
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1553506319" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1553506319" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1553506319" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Events\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Game Parameters\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Events\Default Work Unit.wwu" DateLow="1569419376" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Game Parameters\Default Work Unit.wwu" DateLow="1569404522" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1553506316" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Game Parameters\Factory SoundSeed Grain.wwu" DateLow="1553506366" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1569419772" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Mixing Sessions\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Modulators\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Presets\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Presets\Default Work Unit.wwu" DateLow="1569419201" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Queries\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Queries\Factory Queries.wwu" DateLow="1553506300" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\SoundBanks\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\SoundBanks\Default Work Unit.wwu" DateLow="1569419376" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1569419772" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\States\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Switches\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Triggers\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Virtual Acoustics\Default Work Unit.wwu" DateLow="1569400731" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1553506318" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Wwise_Cognitive_Aquarium.Louis.NAUDIN.wsettings" DateLow="1569422428" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\louis.naudin\Documents\Wwise_Cognitive_Aquarium\Wwise_Cognitive_Aquarium.wproj" DateLow="1569400731" DateHigh="0"/>
 </ValidationCache>
